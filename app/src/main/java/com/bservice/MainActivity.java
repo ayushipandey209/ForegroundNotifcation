@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
        {
            if(MyForegroundService.class.getName().equals(service.service.getClassName()))
            {
+//               Update check
 
                return true;
            }
